@@ -41,3 +41,32 @@
 .projects img {
   height: 250px;
 }
+
+.services img {
+  width: 250px;
+  height: 400px;
+}
+
+.services h5 {
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.services i {
+  color: green;
+  font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  .services img {
+    width: 220px;
+  }
+}
+
+@media (max-width: 476px) {
+  .services h5 {
+    font-size: 16px;
+  }
+}
