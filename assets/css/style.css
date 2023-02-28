@@ -33,3 +33,11 @@
 .about .row .col:nth-child(1) {
   background-color: #222;
 }
+
+.projects {
+  padding: 100px 0;
+}
+
+.projects img {
+  height: 250px;
+}
