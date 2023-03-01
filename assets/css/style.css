@@ -59,6 +59,19 @@
   font-size: 30px;
 }
 
+.faq {
+  padding-top: 100px;
+}
+
+/* override warna pada bootstrap */
+.faq .accordion {
+  --bs-accordion-bg: #e9edc9;
+}
+
+.faq .accordion .accordion-button:focus {
+  box-shadow: none;
+}
+
 @media (max-width: 1200px) {
   .services img {
     width: 220px;
