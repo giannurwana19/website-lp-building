@@ -72,6 +72,16 @@
   box-shadow: none;
 }
 
+.footer {
+  min-height: 40vh;
+  margin-top: 150px;
+  background-color: #15181f;
+}
+
+footer .copyright {
+  padding-top: 100px;
+}
+
 @media (max-width: 1200px) {
   .services img {
     width: 220px;
