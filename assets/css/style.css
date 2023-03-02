@@ -30,6 +30,18 @@
   height: 100vh;
 }
 
+.hero h1 {
+  --animate-delay: 0.7s;
+}
+
+.hero p {
+  --animate-delay: 1.2s;
+}
+
+.hero button {
+  --animate-delay: 1.5s;
+}
+
 .about .row .col:nth-child(1) {
   background-color: #222;
 }
